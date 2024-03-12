@@ -6,8 +6,8 @@ Lockedboxes
 
 def canUnlockAll(boxes: list) -> bool:
     """
-    retruns a boolean if a box can be
-    opened.
+    returns a boolean if all boxes
+    can be opened. DFS approach
     """
     if not boxes or not boxes[0]:
         return False
