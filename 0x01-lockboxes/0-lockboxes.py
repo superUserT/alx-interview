@@ -1,7 +1,14 @@
 #!/usr/bin/python3
+"""
+Lockedboxes
+"""
 
 
-def canUnlockAll(boxes):
+def canUnlockAll(boxes: list) -> bool:
+    """
+    retruns a boolean if a box can be
+    opened.
+    """
     if not boxes or not boxes[0]:
         return False
 
